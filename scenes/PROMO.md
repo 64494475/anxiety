@@ -52,7 +52,6 @@ music('battle', {volume:0.5});
 (...300)
 
 n: これは にんげんの ふあん
-n: AND THIS IS THE HUMAN'S ANXIETY
 
 n: _あなた_ は ふあん
 
