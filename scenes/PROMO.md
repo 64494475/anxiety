@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3: So before we start, how would *you* like to read?
+n3: 始める前に、*あなた*好みの表示設定ができます。
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Now, let's begin our story...
+n3: それでは、わたしたちの物語を始めましょう...
 
 ```
 publish("hide_tabs");
@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: これは にんげん
 
 (...600)
 
@@ -51,9 +51,10 @@ music('battle', {volume:0.5});
 
 (...300)
 
+n: これは にんげんの ふあん
 n: AND THIS IS THE HUMAN'S ANXIETY
 
-n: _YOU_ ARE THE ANXIETY
+n: _あなた_ は ふあん
 
 (#act1_normal)
 
@@ -66,45 +67,45 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Nope. No, nope, not listening. Gonna check my phone.
+h: いやだ。やだ、やだ、聴かないよ。スマホ見るからね。
 
 ```
 sfx("rustle2");
 hong({body:"phone1", mouth:"neutral", eyes:"neutral"})
 ```
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: あなたの 仕事は あなたのにんげんを *危険* から守ること
 
 `bb({eyes:"look", mouth:"small_lock", body:"fear"})`
 
-b: Gasp! You're scrolling your life away on Twitter! Again!
+b: はっ! またツイッターで人生をスクロールしてる!
 
 ```
 bb({eyes:"normal", mouth:"normal", body:"normal"});
 hong({eyes:"annoyed"});
 ```
 
-h: Yeah I wonder why I don't just sit and listen to my thoughts more often.
+h: ああ どうしてわたしについての感想をちゃんとただ座って聞かないんだろうね
 
 `hong({eyes:"neutral"});`
 
-n: QUICK, WARN THEM ABOUT A *DANGER!*
+n: *危険* について素早く警告しましょう!
 
 ```
 bb({eyes:"look"});
 ```
 
-[Oh no, look at that horrible news story!](#act1d_news)
+[なんてこった、その恐ろしいニュースを見なよ!](#act1d_news)
 
-[Oh no, is that tweet secretly about *us?*](#act1d_subtweet)
+[なんてこった、そのツイートは *ぼくら* のことじゃないか?](#act1d_subtweet)
 
-[Hey, a GIF of a cat drinking milk](#act1d_milk)
+[あ、ネコがミルクを飲むGIF動画だ](#act1d_milk)
 
 # act1d_milk
 
 `hong({mouth:"smile", eyes:"surprise"});`
 
-h: Heh ya that's cute, I--
+h: うん かわいい、わたし--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -112,7 +113,7 @@ bb({body:"scream"});
 Game.OVERRIDE_TEXT_SPEED = 1.8;
 ```
 
-b: CATS CAN'T DIGEST MILK AND WE'RE TERRIBLE PEOPLE FOR ENJOYING ANIMAL ABUSE
+b: ネコはミルクでお腹を壊すのに ぼくらは動物虐待を楽しむひどい人間だ
 
 (...200)
 
