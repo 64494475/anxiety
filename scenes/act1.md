@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: そしてこれは にんげんの ふあん
 
-n: _YOU_ ARE THE ANXIETY
+n: _あなた_ は ふあん
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: なあ! また戻ってきたのかい?
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: あなたの 仕事は あなたのにんげんを *危険* から守ること
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: つまり、このゲームのリプレイは彼女たちを *危険* にさらす
 
-n: QUICK, WARN THEM!
+n: 素早く、彼女たちに警告を!
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: にんげん! よくきけ、危険が迫ってる! プレイヤーが...
 
-[...is gonna torture us again!](#act1_replay_torture)
+[...またぼくらを拷問しようとしている!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[...他のエンディングを見つけられない!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[...物語とゲーム性の乖離に違和感を感じている!!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
@@ -59,32 +59,32 @@ hong({body:"0_sammich"});
 ```
 
 {{if window.HACK_REPLAY.act1_ending=="fight"}}
-b: They'll make us curl up into a ball and cry!
+b: うずくまって泣かせようって魂胆だ!
 {{/if}}
 
 {{if window.HACK_REPLAY.act1_ending=="flight"}}
-b: They'll make us kill your phone for giving you a panic attack!
+b: スマホを壊してパニックにさせようって魂胆だ!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="fight"}}
-b: They'll make us *NOT* punch the party host!
+b: パーティーの主催にパンチ *させない* つもりだ!
 {{/if}}
 
 {{if window.HACK_REPLAY.a2_ending=="flight"}}
-b: They'll make us punch the Sympathetic Anti-Villain party host!
+b: アンチ-ヴィランパーティの主催者にパンチさせようって魂胆だ!
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="jump"}}
-h: Well at least we might not jump off the roof this ti--
+h: 少なくとも、今回は屋上から飛び降りたりは--
 {{/if}}
 
 {{if window.HACK_REPLAY.a3_ending=="walkaway"}}
-b: THEY'LL MAKE US JUMP OFF THE ROOF.
+b: 屋上からジャンプさせようって魂胆だ。
 {{/if}}
 
 `bb({body:"fear"});`
 
-b: ALL THESE NEW TERRIBLE THINGS WILL HAPPEN TO US, AND THEN WE'LL--
+b: これからぼくたちに ありとあらゆるひどいことが起こって、そしてぼくたちは--
 
 (#act1_replay_end)
 
