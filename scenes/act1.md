@@ -24,7 +24,7 @@ n: _あなた_ は ふあん
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: なあ! また戻ってきたのかい?
+h: あぁ! また戻ってきたのかい?
 
 `hong({eyes:"0_neutral"})`
 
@@ -34,7 +34,7 @@ n: あなたの 仕事は あなたのにんげんを *危険* から守るこ�
 
 n: つまり、このゲームのリプレイは彼女たちを *危険* にさらす
 
-n: 素早く、彼女たちに警告を!
+n: 素早く、警告しなければ!
 
 ```
 sfx("squeak");
@@ -96,11 +96,11 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: Sure, the story as a *whole* is the same, but each chapter has two possible endings, plus all the branching dialogue opti--
+h: そうだね、*全体* としては同じストーリーだけど、チャプターごとに2つのエンディングがあって、全てに分岐会話が--
 
 `bb({body:"fear"});`
 
-b: The player will be disappointed, close this browser tab, delete our software, and then we'll--
+b: プレイヤーはがっかり呆れて、ブラウザのタブを閉じて、このソフトを削除してそれからほくたちは--
 
 (#act1_replay_end)
 
@@ -112,27 +112,29 @@ bb({body:"normal", mouth:"normal", eyes:"fear"});
 hong({body:"0_sammich"});
 ```
 
-h: A lewd-what now?
+h: 何が不適切だって?
 
 `bb({eyes:"normal"});`
 
+b: 一連のストーリーは、どのようにして恐怖を煽って健康を得るかという *選択肢* だったのに、
 b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: リプレイでも同じストーリーが見られる、つまり *選択肢* は重要じゃない。
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: これじゃあゲームのメッセージとメカニズムが矛盾している。
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: このように物語の宇宙を紐解いて、
+Thus unraveling the fabric of this narrative universe,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: そしたら--
 
 (#act1_replay_end)
 
@@ -141,7 +143,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: 死ぬんだーーーーーっ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +166,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: じゃあ、キャラに戻ろっか。
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (_あなた_ の不安 うんぬんかんぬん  _あなた_ の心配 なにやらかにやら 知ってることに よく似てるでしょう)
 
 ```
 sfx("squeak");
@@ -181,22 +183,21 @@ bb({body:"squeeze"});
 (#act1_normal_choice)
 
 
-
 # act1_normal
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: ああよかった、狼が戻ってきた。すごーーーい。
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: あなたの 仕事は あなたのにんげんを *危険* から守ること
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: 実際に、このサンドウィッチは今 彼女たちを *危険* にさらしている
 
-n: QUICK, WARN THEM!
+n: 素早く、警告しなければ!
 
 ```
 sfx("squeak");
@@ -204,7 +205,7 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: にんげん! よく聞け、ぼくたち危険だ! 危険ってのは...
 
 `bb({body:"squeeze"})`
 
